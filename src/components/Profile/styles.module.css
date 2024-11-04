@@ -1,0 +1,8 @@
+.imagem {
+  width: 100px;
+  height: 100px;
+}
+
+.container > p {
+  color: red;
+}

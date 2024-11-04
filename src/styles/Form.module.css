@@ -1,0 +1,15 @@
+.container {
+  margin: 1rem;
+}
+
+.formCadastro {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.teste {
+  margin-top: 1rem;
+}
