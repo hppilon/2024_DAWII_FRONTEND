@@ -1,5 +1,5 @@
 import styles from "@/styles/Form.module.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Form() {
   const [title, setTitle] = useState("Título inicial");
@@ -18,6 +18,14 @@ export default function Form() {
         descricao.value
     );
   };
+
+  useEffect(() => {
+    alert("Página carregada pela primeira vez");
+  }, []);
+
+  useEffect(() => {
+    if (title == "teste") alert("Título alterado para " + title);
+  }, [title]);
 
   return (
     <div className={styles.container}>
