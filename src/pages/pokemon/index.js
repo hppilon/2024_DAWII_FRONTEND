@@ -3,6 +3,7 @@ import styles from "@/styles/pokemon.module.css";
 
 export default function Pokemon() {
   const pokemons = [369, 303, 7, 26, 99, 30, 999, 874];
+
   return (
     <div className={styles.container}>
       <h4> Pokedex</h4>
